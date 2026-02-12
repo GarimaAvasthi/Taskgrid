@@ -8,6 +8,8 @@ Perfect for organizing your tasks by status and priority!
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ---
+The project is deployed on Vercel and can be accessed at:
+https://assignment-1-seven-rho.vercel.app/
 
 ##  Features
 - **TaskBoard**: Organize tasks into three columns - *To Do*, *In Progress*, and *Done*
@@ -20,15 +22,46 @@ Perfect for organizing your tasks by status and priority!
 - **Global Timer**: Real-time clock display in the navigation bar
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
 - **Themes**: 4 diffrent color themes are provided
-
-###  Data Persistence
 - **Local Storage**: All tasks are automatically saved to browser storage
 - **Auto-Save**: Changes are instantly persisted without manual save button
 - **Data Recovery**: Your tasks are preserved even after closing the browser
 
 ---
 
-## 🚀 Getting Started
+### Tech-stack Used
+- **React 18+**: UI framework with hooks
+- **Vite**: Fast build tool and dev server
+- **@dnd-kit/core**: Drag-and-drop library
+- **dnd-kit/sortable**: Sortable utilities
+
+---
+## Project Structure
+
+```
+taskgrid/
+├── src/
+│   ├── components/
+│   │   ├── AddTask.jsx          
+│   │   ├── Board.jsx           
+│   │   ├── Column.jsx           
+│   │   ├── TaskCard.jsx        
+│   │   ├── ThemeSwitcher.jsx   
+│   │   └── Timer.jsx           
+│   ├── hooks/
+│   │   └── useLocalStorage.js   
+│   ├── styles/
+│   │   └── theme.css           
+│   ├── App.jsx                 
+│   └── main.jsx                
+├── public/                    
+├── index.html                  
+├── package.json                
+├── vite.config.js 
+├── Prompts.md         
+└── README.md                    
+```
+
+## Getting Started
 
 ### Prerequisites
 - **Node.js** (v16 or higher)
@@ -36,25 +69,18 @@ Perfect for organizing your tasks by status and priority!
 
 ### Installation
 
-1. **Clone or navigate to the project directory**:
-   ```bash
-   cd taskgrid
-   ```
-
+1. **Clone the repository**
+   git clone https://github.com/GarimaAvasthi/Taskgrid.git
 2. **Install dependencies**:
    ```bash
    npm install
    ```
-
 3. **Start the development server**:
    ```bash
    npm run dev
    ```
-
-4. **Build for production**:
-   ```bash
-   npm run build
-   ```
+4. Open the browser and go to 
+ http://localhost:5173
 
 ---
 
@@ -97,42 +123,6 @@ Perfect for organizing your tasks by status and priority!
 6. Theme preference is saved automatically
 
 ---
-
-## Project Structure
-
-```
-taskgrid/
-├── src/
-│   ├── components/
-│   │   ├── AddTask.jsx          
-│   │   ├── Board.jsx           
-│   │   ├── Column.jsx           
-│   │   ├── TaskCard.jsx        
-│   │   ├── ThemeSwitcher.jsx   
-│   │   └── Timer.jsx           
-│   ├── hooks/
-│   │   └── useLocalStorage.js   
-│   ├── styles/
-│   │   └── theme.css           
-│   ├── App.jsx                 
-│   └── main.jsx                
-├── public/                    
-├── index.html                  
-├── package.json                
-├── vite.config.js 
-├── Prompts.md         
-└── README.md                    
-```
-
----
-
-## 🔧 Technical Details
-
-### Technologies Used
-- **React 18+**: UI framework with hooks
-- **Vite**: Fast build tool and dev server
-- **@dnd-kit/core**: Drag-and-drop library
-- **dnd-kit/sortable**: Sortable utilities
 
 ### Key Components
 
