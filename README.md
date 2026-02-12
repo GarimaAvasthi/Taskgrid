@@ -9,7 +9,7 @@ Perfect for organizing your tasks by status and priority!
 
 ---
 The project is deployed on Vercel and can be accessed at:
-https://assignment-1-seven-rho.vercel.app/
+https://taskgrid-xi.vercel.app/
 
 ##  Features
 - **TaskBoard**: Organize tasks into three columns - *To Do*, *In Progress*, and *Done*
