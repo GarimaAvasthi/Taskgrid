@@ -70,7 +70,9 @@ taskgrid/
 ### Installation
 
 1. **Clone the repository**
+   ```bash
    git clone https://github.com/GarimaAvasthi/Taskgrid.git
+   ```
 2. **Install dependencies**:
    ```bash
    npm install
@@ -79,8 +81,10 @@ taskgrid/
    ```bash
    npm run dev
    ```
-4. Open the browser and go to 
- http://localhost:5173
+4. **Open the browser and go to**:
+   ```bash
+   http://localhost:5173
+   ```
 
 ---
 
