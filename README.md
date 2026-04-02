@@ -22,7 +22,7 @@ https://taskgrid-xi.vercel.app/
 - **Global Timer**: Real-time clock display in the navigation bar
 - **Responsive Design**: Works seamlessly on desktop, tablet, and mobile
 - **Themes**: 4 diffrent color themes are provided
-- **Local Storage**: All tasks are automatically saved to browser storage
+- **Local Storage**: All tasks are automatically saved to local browser storage
 - **Auto-Save**: Changes are instantly persisted without manual save button
 - **Data Recovery**: Your tasks are preserved even after closing the browser
 
